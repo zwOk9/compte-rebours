@@ -1,0 +1,13 @@
+Couleurs
+----------
+Noir : #232323
+Jaune : #F7DA41
+blanc : #ffffff
+Vert : #098820
+
+
+Typographie
+-----------
+Playfair Display / Playfair Display black italic
+taille pc et tablette : 35px
+taille portable : 20px

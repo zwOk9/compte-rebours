@@ -1,0 +1,282 @@
+html {
+    height: 100%;
+}
+body{
+	margin: 0;
+	padding: 0;
+
+	background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)), url("../images/landing2.jpg");
+
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #232323;
+
+	
+
+}
+#all{
+
+
+ 
+	max-width: 900px;
+	margin: 0 auto;
+	text-align: center;
+	height:100%;
+	margin-top: 20vh;
+}
+
+#rebours{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-auto-columns: minmax(10px, auto);
+	grid-gap: 20px;
+	max-width: 600px;
+	margin: 0 auto;
+	
+
+
+}
+.repeat{
+
+}
+
+#rebours div{
+	display: inline-block;
+	
+	
+	
+}
+#all h1{
+	color:white;
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+	text-shadow: 5px 5px black;
+}
+#rebours div p,h1{
+	color:white;
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+	font-size: 3vw;
+	text-shadow: 1px 1px black;
+	 
+
+
+}
+.repeat p {
+	border: 1px white solid;
+	border-radius:5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.digit {
+	height: 135px;
+}
+
+.z{
+
+	border:initial !important;
+	 font-size: 1.5vw;
+	 margin-left: -10px;
+	 padding-top: -200px;
+	 color:white;
+	 text-shadow: 1px 1px black;
+	 text-transform: uppercase;
+}
+
+#fmail{
+	
+	width: 300px;
+	height: 50px;
+	opacity: 1;
+	 background-color: rgba(0, 0, 0, 0.0);
+	border:1px white solid;
+	
+	color:white;
+	border-radius: 5px;
+	
+}
+.imail{
+	transform: rotateY(180deg);
+	-webkit-transform: rotateY(180deg);
+
+}
+
+.Clik {
+	line-height: 52px;7
+	cursor: pointer;
+	pointer-events: auto;
+	width: 380px;
+	height: 60px;
+	background-color: rgba(0, 0, 0, 0.0);
+	text-shadow: 1px 1px black;
+	border: 2px solid #E8E8E8;
+	border-color: white;
+	color: white;
+	margin-top:30px;
+    font-size: 1.5vw;
+   -webkit-backface-visibility: visible;
+}
+.cube{
+	width: 100%;
+  height: 100%;
+	position: relative;
+  transform-style: preserve-3d;
+  transition: transform 1s;
+
+}
+.email{
+	perspective: 600px;
+	width: 400px;
+	margin:0 auto;
+}
+.treed{
+	position: absolute;
+	backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
+	
+}
+.cube.is-flipped {
+  transform: rotateY(180deg);
+}
+::placeholder {
+  color: white;
+  text-align: left;
+  padding-left: 10px;
+  align-items: center;
+  text-shadow: 1px 1px black;
+  font-size: 1.5em;
+
+  vertical-align: middle;
+}
+#buttonMail{
+	margin-left: 3px;
+	border:1px white solid;
+	width:75px;
+	margin-top:30px; 
+	line-height: 51px;
+	background-color: rgba(0, 0, 0, 0.0);
+	text-shadow: 1px 1px black;
+	padding-bottom: 1.3px;
+	padding-top: 0.5px;
+    text-transform: uppercase;
+    
+	color:white;
+	border-radius: 5px;
+}
+footer{
+	width: 100%;
+	margin-top: 150px;
+	
+	left: 0;
+   	bottom: 0;
+   	display: block;
+ 	text-align: center;
+}
+.reseau{
+	max-width: 600px;
+	margin: 0 auto;
+	
+}
+
+.reseau a{
+
+  border-radius: 200px;
+  border-color: black;
+  box-shadow: 0px 0px 2px black;
+  padding: 0.5em 0.6em;
+  font-size: 2vw;
+}
+.reseau a i{
+	color:white;
+}
+.reseau a i:hover{
+	color:black;
+}
+.fb{
+
+	margin-left: 20px;
+}
+.fa-facebook-f{
+	width: 26px;
+}
+
+.error{
+	height: 20px;
+	padding: 19px;
+    background-color: #f44336;
+    color: white;
+    width: 100%;
+    font-weight: bold;
+    text-align:center;
+    margin: 0 auto;
+    margin-top: 9px;
+    position: fixed;
+    top:0;
+    width: 100%;
+    opacity:0.7;
+    animation-duration: 3s;
+ 	animation-name: slidein;
+}
+
+.sucess{
+	height: 20px;
+	padding: 19px;
+    background-color: #3c763d;
+    color: white;
+    width: 100%;
+    font-weight: bold;
+    text-align:center;
+    margin: 0 auto;
+    margin-top: 9px;
+    position: fixed;
+    top:0;
+    width: 100%;
+    opacity:0.7;
+    animation-duration: 3s;
+ 	animation-name: slidein;
+}
+
+@keyframes slidein {
+  
+}
+
+
+@media screen and (max-width: 640px) {
+	body{
+		background-position: center bottom;
+	}
+
+  .z, h1, .digit p{
+ 
+    font-size:4vw ;
+  }
+  .digit{
+  	height: 80px;
+  }
+  #rebours div p{
+  	font-size: 5vw !important;
+  }
+  .reseau a{
+  	font-size: 4vh !important;
+  }
+}
+
+@media screen and (min-width: 1700px) {
+	.digit{
+  		height: 160px;
+  	}
+}
+
+@media screen 
+      and (device-width: 360px) 
+      and (device-height: 640px) 
+      and (-webkit-device-pixel-ratio: 3) {
+      	#all{
+      		padding-top: 450px;
+      	}
+
+    }
